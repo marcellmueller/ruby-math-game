@@ -16,7 +16,7 @@ class Player
   end
 end
 
-marcel = Player.new('Marcel')
-puts marcel.name
-marcel.wrong
-puts marcel.lives
+# marcel = Player.new('Marcel')
+# puts marcel.name
+# marcel.wrong
+# puts marcel.lives
