@@ -1,0 +1,22 @@
+class Player
+  attr_accessor :name, :lives, :score
+
+  def initialize(name)
+    @name = name
+    @lives = 3
+    @score = 0
+  end
+
+  def wrong
+    @lives -= 1
+  end
+
+  def right
+    @score += 1
+  end
+end
+
+marcel = Player.new('Marcel')
+puts marcel.name
+marcel.wrong
+puts marcel.lives
